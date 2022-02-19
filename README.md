@@ -1,2 +1,2 @@
-# Cryptanalysis-of-the-Wiegener-and-Ceraz-ciphers
-Implementation of the Wiegener and Ceras cipher JavaFX
+# Cryptanalysis-of-the-Wiegener-and-Cezar-ciphers
+Implementation of the Wiegener and Cezar-ciphers JavaFX
