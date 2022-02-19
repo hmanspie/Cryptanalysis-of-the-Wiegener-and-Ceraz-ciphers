@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainWindowController">
+   <children>
+      <TextArea fx:id="incomingText" focusTraversable="false" layoutX="-3.0" opacity="0.4" prefHeight="400.0" prefWidth="703.0" promptText="Incoming Text" styleClass="textFieldStyle" stylesheets="@style.css" wrapText="true" />
+      <Button focusTraversable="false" layoutX="274.0" layoutY="413.0" mnemonicParsing="false" onAction="#decryptionButtonClick" prefHeight="38.0" prefWidth="200.0" styleClass="buttonStyle" stylesheets="@style.css" text="Decryption" />
+      <Button focusTraversable="false" layoutX="486.0" layoutY="413.0" mnemonicParsing="false" onAction="#encryptionButtonClick" prefHeight="38.0" prefWidth="200.0" styleClass="buttonStyle" stylesheets="@style.css" text="Encryption" />
+      <TextArea fx:id="outputingText" focusTraversable="false" layoutY="461.0" opacity="0.4" prefHeight="380.0" prefWidth="700.0" promptText="Outputing Text" styleClass="textFieldStyle" stylesheets="@style.css" />
+      <Label focusTraversable="false" layoutX="14.0" layoutY="423.0" styleClass="labelStyle" stylesheets="@style.css" text="K = " />
+      <TextField fx:id="keyTextField" focusTraversable="false" layoutX="41.0" layoutY="419.0" prefHeight="25.0" prefWidth="223.0" />
+   </children>
+</AnchorPane>

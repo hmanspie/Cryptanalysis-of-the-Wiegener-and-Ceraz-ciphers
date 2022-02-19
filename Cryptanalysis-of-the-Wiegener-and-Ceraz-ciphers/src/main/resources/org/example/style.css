@@ -1,0 +1,27 @@
+.buttonStyle{
+    -fx-text-fill: aliceblue;
+    -fx-font-family: SansSerif;
+    -fx-font-size:16;
+    -fx-background-color: cornflowerblue;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.buttonStyle:hover{
+    -fx-background-color: brown;
+}
+.buttonStyle:pressed{
+    -fx-background-color: crimson;
+}
+
+.labelStyle{
+    -fx-font-family: SansSerif;
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
+
+.textFieldStyle{
+    -fx-opacity: 0.4;
+    -fx-font-family: SansSerif;
+    -fx-font-size: 14;
+}
